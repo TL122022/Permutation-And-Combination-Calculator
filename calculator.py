@@ -8,7 +8,7 @@ if what_to_do not in ["p", "c"]:
 
 try:
     n = int(input("Enter the total number of objects (n): ").strip())
-    r = int(input("Enter the number of objects selected (/): ").strip())
+    r = int(input("Enter the number of objects selected (r): ").strip())
 except ValueError:
     print("Input Error. Input must be a number.")
     exit()
