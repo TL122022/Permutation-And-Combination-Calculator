@@ -1,17 +1,14 @@
 import math
 
-def permutation(n, r):
-  factorial(n)/factorial(n - r)
+def fact(n):
+    return(math.factorial(n))
+def fact(n, r):
+    return(math.factorial(n - r))
 
-While True:
-  n = input("Enter the total number of objects/n: ")
-  r = input("Enter the number of objects selected/r: ")
-  q = input("Enter q or Q to exit")
-  
-  if q == 'q' or 'Q':
-    break
-  
-  else
-    permutation(n, r)
-  
-  
+def permutation(n, r):
+  fact(n)/fact((n - r))
+
+n = input("Enter the total number of objects/n: ")
+r = input("Enter the number of objects selected/r: ")
+
+permutation(n, r)
