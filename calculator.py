@@ -24,6 +24,8 @@ elif r <= 0:
     exit()
 
 if what_to_do == "p":
+    print("Answer: ")
     print(int(math.factorial(n) / math.factorial((n - r))))
 if what_to_do == "c":
+    print("Answer: ")
     print(math.factorial(n) / (math.factorial(r) * math.factorial((n - r))))
